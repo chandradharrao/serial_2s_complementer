@@ -1,0 +1,93 @@
+$date
+	Fri Aug 14 07:21:33 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_serial_2_comp $end
+$var wire 1 ! carry $end
+$var wire 4 " comp_reg [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ load $end
+$var reg 4 % num [3:0] $end
+$var reg 1 & rst $end
+$scope module M_UUT $end
+$var wire 1 ' clk $end
+$var wire 1 ( load $end
+$var wire 4 ) num [3:0] $end
+$var wire 1 * rst $end
+$var reg 1 + carry $end
+$var reg 4 , comp_reg [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+1+
+0*
+b0 )
+0(
+0'
+0&
+b0 %
+0$
+0#
+b0 "
+1!
+$end
+#2
+b1 %
+b1 )
+1$
+1(
+1&
+1*
+#5
+b1 ,
+b1 "
+1#
+1'
+#10
+0#
+0'
+0$
+0(
+#15
+0+
+0!
+b1000 ,
+b1000 "
+1#
+1'
+#20
+0#
+0'
+#25
+b1100 ,
+b1100 "
+1#
+1'
+#30
+0#
+0'
+#35
+b1110 ,
+b1110 "
+1#
+1'
+#40
+0#
+0'
+#45
+b1111 ,
+b1111 "
+1#
+1'
+#50
+0#
+0'
+#52
